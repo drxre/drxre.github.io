@@ -139,7 +139,7 @@ html {
 	}
 
 body, input, select, textarea {
-	color: #ffffff;
+	color: #d8d8d8;
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
 	font-size: 1rem;
@@ -175,7 +175,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #d8d8d8;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px #d8d8d8;
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
@@ -263,7 +264,7 @@ sup {
 }
 
 blockquote {
-	border-left: solid 4px #ffffff;
+	border-left: solid 4px #d8d8d8;
 	font-style: italic;
 	margin: 0 0 2rem 0;
 	padding: 0.5rem 0 0.5rem 2rem;
@@ -294,7 +295,7 @@ pre {
 
 hr {
 	border: 0;
-	border-bottom: solid 1px #ffffff;
+	border-bottom: solid 1px #d8d8d8;
 	margin: 2.75rem 0;
 }
 
@@ -385,7 +386,7 @@ form {
 	}
 
 label {
-	color: #ffffff;
+	color: #d8d8d8;
 	display: block;
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -411,7 +412,7 @@ textarea {
 	transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	background-color: transparent;
 	border-radius: 4px;
-	border: solid 1px #ffffff;
+	border: solid 1px #d8d8d8;
 	color: inherit;
 	display: block;
 	outline: 0;
@@ -436,8 +437,8 @@ textarea {
 	select:focus,
 	textarea:focus {
 		background: rgba(255, 255, 255, 0.075);
-		border-color: #ffffff;
-		box-shadow: 0 0 0 1px #ffffff;
+		border-color: #d8d8d8;
+		box-shadow: 0 0 0 1px #d8d8d8;
 	}
 
 select {
@@ -451,7 +452,7 @@ select {
 }
 
 	select option {
-		color: #ffffff;
+		color: #d8d8d8;
 		background: #1b1f22;
 	}
 
@@ -495,7 +496,7 @@ input[type="radio"] {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		color: #ffffff;
+		color: #d8d8d8;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
@@ -523,7 +524,7 @@ input[type="radio"] {
 			-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 			transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 			border-radius: 4px;
-			border: solid 1px #ffffff;
+			border: solid 1px #d8d8d8;
 			content: '';
 			display: inline-block;
 			height: 1.65rem;
@@ -537,8 +538,8 @@ input[type="radio"] {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background: #ffffff !important;
-		border-color: #ffffff !important;
+		background: #d8d8d8 !important;
+		border-color: #d8d8d8 !important;
 		color: #1b1f22;
 		content: '\f00c';
 	}
@@ -546,8 +547,8 @@ input[type="radio"] {
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
 		background: rgba(255, 255, 255, 0.075);
-		border-color: #ffffff;
-		box-shadow: 0 0 0 1px #ffffff;
+		border-color: #d8d8d8;
+		box-shadow: 0 0 0 1px #d8d8d8;
 	}
 
 input[type="checkbox"] + label:before {
@@ -587,7 +588,7 @@ input[type="radio"] + label:before {
 
 .box {
 	border-radius: 4px;
-	border: solid 1px #ffffff;
+	border: solid 1px #d8d8d8;
 	margin-bottom: 2rem;
 	padding: 1.5em;
 }
@@ -736,7 +737,7 @@ ul {
 	}
 
 		ul.alt li {
-			border-top: solid 1px #ffffff;
+			border-top: solid 1px #d8d8d8;
 			padding: 0.5em 0;
 		}
 
@@ -899,7 +900,7 @@ ul.icons {
 
 		ul.icons li a {
 			border-radius: 100%;
-			box-shadow: inset 0 0 0 1px #ffffff;
+			box-shadow: inset 0 0 0 1px #d8d8d8;
 			display: inline-block;
 			height: 2.25rem;
 			line-height: 2.25rem;
@@ -928,7 +929,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 1px #ffffff;
+		border: solid 1px #d8d8d8;
 		border-left: 0;
 		border-right: 0;
 	}
@@ -942,7 +943,7 @@ table {
 	}
 
 	table th {
-		color: #ffffff;
+		color: #d8d8d8;
 		font-size: 0.9em;
 		font-weight: 600;
 		padding: 0 0.75em 0.75em 0.75em;
@@ -950,11 +951,11 @@ table {
 	}
 
 	table thead {
-		border-bottom: solid 2px #ffffff;
+		border-bottom: solid 2px #d8d8d8;
 	}
 
 	table tfoot {
-		border-top: solid 2px #ffffff;
+		border-top: solid 2px #d8d8d8;
 	}
 
 	table.alt {
@@ -962,7 +963,7 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 1px #ffffff;
+			border: solid 1px #d8d8d8;
 			border-left-width: 0;
 			border-top-width: 0;
 		}
@@ -1001,8 +1002,8 @@ button,
 	background-color: transparent;
 	border-radius: 4px;
 	border: 0;
-	box-shadow: inset 0 0 0 1px #ffffff;
-	color: #ffffff !important;
+	box-shadow: inset 0 0 0 1px #d8d8d8;
+	color: #d8d8d8 !important;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.8rem;
@@ -1065,7 +1066,7 @@ button,
 	input[type="button"].primary,
 	button.primary,
 	.button.primary {
-		background-color: #ffffff;
+		background-color: #d8d8d8;
 		color: #1b1f22 !important;
 		font-weight: 600;
 	}
@@ -1127,7 +1128,11 @@ button {
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
 		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-		background-size: auto, 256px 256px;
+		background-image: url("../../images/Magellan.jpg"); 
+		height: 100%;
+		width: 100%;
+		/* background-size: auto, 256px 256px; */
+		background-size: cover;
 		background-position: center, center;
 		background-repeat: no-repeat, repeat;
 		/* This sets the order of rendering. This will sit on top of all elements with z-index < 2 */
@@ -1267,7 +1272,7 @@ button {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: calc(3.5rem + 1px);
-			background: #ffffff;
+			background: #d8d8d8;
 		}
 
 	#header > :first-child {
@@ -1282,7 +1287,7 @@ button {
 		width: 5.5rem;
 		height: 5.5rem;
 		line-height: 5.5rem;
-		border: solid 1px #ffffff;
+		border: solid 1px #d8d8d8;
 		border-radius: 100%;
 	}
 
@@ -1292,7 +1297,7 @@ button {
 
 	#header .content {
 		border-style: solid;
-		border-color: #ffffff;
+		border-color: #d8d8d8;
 		border-top-width: 1px;
 		border-bottom-width: 1px;
 		max-width: 100%;
@@ -1331,13 +1336,13 @@ button {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 1px #ffffff;
+		border: solid 1px #d8d8d8;
 		border-radius: 4px;
 	}
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 1px #ffffff;
+			border-left: solid 1px #d8d8d8;
 		}
 
 			#header nav ul li:first-child {
@@ -1372,7 +1377,7 @@ button {
 		left: calc(50% - 1px);
 		width: 1px;
 		height: 100%;
-		background: #ffffff;
+		background: #d8d8d8;
 	}
 
 	#header nav.use-middle ul li.is-middle {
@@ -1469,7 +1474,7 @@ button {
 
 				#header nav ul li {
 					border-left: 0;
-					border-top: solid 1px #ffffff;
+					border-top: solid 1px #d8d8d8;
 				}
 
 					#header nav ul li:first-child {
